@@ -1,0 +1,76 @@
+/* DEVICE WITH SCREEN MAX 1000px */
+@media screen and (max-width: 1000px) {
+	#content,
+	aside {
+		width: 100%;
+		padding: 0;
+	}
+}
+
+/* DEVICE WITH SCREEN MAX 500px */
+@media screen and (max-width: 500px) {
+  #popular, #traveling, #investing, #programming {
+    display: flex;
+    flex-direction: column;
+  }
+  article.card {
+    padding: 0px;
+    overflow: hidden;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  aside article.card {
+    margin-top: 5px;
+    padding: 15px;
+  }
+
+  section.information {
+    background-color: black;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+  }
+  section.information ul li {
+    margin-top: 15px;
+  }
+}
+
+/* DEVICE WITH SCREEN MAX 300px */
+@media screen and (max-width: 400px) {
+  nav {
+    position: relative;
+    padding: 0px;
+  }
+  nav span {
+    display: block;
+    visibility: visible;
+    padding-left: 20px;
+    padding-top: 8px;
+  }
+  nav span i {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+  nav ul {
+    display: none;
+    visibility: hidden;
+    margin: 0px;
+    padding-inline-start: 0px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  nav li {
+    display: block;
+    margin-right: 0px;
+    padding: 5px 20px;
+  }
+  nav a {
+    font-size: 14px;
+    color: #82eceb;
+  }
+  nav a:hover, nav a.active {
+    color: black;
+  }
+}
