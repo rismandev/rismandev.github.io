@@ -1,49 +1,5 @@
-/*
-Template Name: Mulan / CV Template + RTL
-Template URI: http://elmanawy.info/demo/mulan
-Description: Mulan for resume / cv / portfolio template that's suitable for freelanner and anyone want to create online portflolio
-Author: Marwa El-Manawy
-Author URL: https://elmanawy.info
-Version: 1.0
-*/
-
-/*================================================
- [  Table of contents  ]
- ================================================
-
-#1. Fonts
-#2. Global css
-#3. Common Style (Pagination, Main Titles)
-#4. Preloader
-#5. Home page sections changer
-#6. Site header (Profile Picture & main menu)
-#7. Start Home SubPage
-#8. About SubPage
-   8.1 About me
-   8.2 Services
-   8.3 Video Intro
-   8.4 Fun Fact
-   8.5 Testenomials
-   8.6 My Clients
-#9. Resume SubPage
-   9.1 Timeline
-   9.2 Skills
-   9.3 Download Rsume
-#10. Portfolio SubPage
-#11. Blog SubPage
-#12. Contact SubPage
-    12.1 Contact Form
-    12.2 Contact Info
-    12.1 Social Media
-#13. Single Blog Page
-#14. Single Portfolio Page
-#15. Page 404
- ======================================
- [ End table content ]
- ======================================*/
-
 /* ============================================================================= 
-#1. Fonts
+# Fonts css configurations
 ============================================================================= */
 
 /******  Google fonts ******/
@@ -62,7 +18,7 @@ Version: 1.0
 
 
 /* ============================================================================= 
-#2. Global css
+# Global css
 ============================================================================= */
 
 body {
@@ -250,7 +206,7 @@ img {
 
 
 /* ============================================================================= 
-#3. Common styles
+# Common styles
 ============================================================================= */
 
 /* Scrollbar Page */
@@ -501,7 +457,7 @@ img {
     font-size: 17px;
 } 
 /* ============================================================================= 
-#4. Preloader
+# Preloader
 ============================================================================= */
 #preloader {
     width: 100%;
@@ -548,7 +504,7 @@ img {
 }
 
 /* ============================================================================= 
-#5. Home page sections changer
+# Home page sections changer
 ============================================================================= */
 .content-pages {
     height: 100%;
@@ -580,7 +536,7 @@ img {
 
 
 /* ============================================================================= 
-#6. Site header (Profile Picture & main menu)
+# Site header (Profile Picture & main menu)
 ============================================================================= */
 .header {
     position: fixed;
@@ -591,7 +547,6 @@ img {
     z-index: 11;
     overflow-x: hidden;
     background-color: #f7f9fc;
-    border-right: 1px solid #eee
 }
 
 .header .header-content {
@@ -645,7 +600,10 @@ img {
 
 .my-photo img {
     border-radius: 100%;
+    width: 100%;
     height: 100%;
+    object-fit: cover;
+    object-position: top center;
 }
 
 .site-title-block {
@@ -872,10 +830,10 @@ span.typed {
 
 
 /* ============================================================================= 
-#7. Start Home SubPage
+# Start Home SubPage
 ============================================================================= */
 
-/* 7.1 Image Background*/
+/*  Image Background*/
 .start-page {
     display: table;
     table-layout: fixed;
@@ -966,10 +924,10 @@ span.typed {
 }
 
 /* ============================================================================= 
-#8. About SubPage
+# About SubPage
 ============================================================================= */
 
-/* 8.1 About me*/
+/* About me */
 .about-location {
     margin-bottom: 15px;
     display: block;
@@ -1020,7 +978,7 @@ span.typed {
 }
 
 
-/* 8.2 Services */
+/* Services */
 .special-block-bg{
     background-color: #f7f9fc;
     padding: 60px 30px;
@@ -1114,7 +1072,7 @@ span.typed {
     }
 }
 
-/*8.3 Video Intro*/
+/* Video Intro */
 .video-section {
     background-attachment: fixed;
     background-size: cover !important;
@@ -1290,7 +1248,7 @@ span.typed {
     }
 }
 
-/* 8.4 Fun Fact */
+/* Fun Fact */
 .counter-block {
     position: relative;
     text-align: center;
@@ -1345,7 +1303,7 @@ span.typed {
 }
 
 
-/* 8.5 Testimonials */
+/* Testimonials */
 
 .testimonials {
     padding-bottom: 60px;
@@ -1486,7 +1444,7 @@ span.typed {
     width: 25px;
 }
 
-/* 8.6 Clients */
+/* Clients */
 
 .client-block {
     text-align: center;
@@ -1529,10 +1487,10 @@ span.typed {
 }
 
 /* ============================================================================= 
-#9. Resume SubPage
+# Resume SubPage
 ============================================================================= */
 
-/* 9.1 Timeline*/
+/* Timeline */
 .timeline-bg{
     background: #f4f5f9;
 }
@@ -1791,7 +1749,7 @@ span.typed {
     }
 }
 
-/* 9.2 Skills */
+/* Skills */
 .progress {
     height: 12px;
     margin-bottom: 19px;
@@ -1852,7 +1810,7 @@ span.typed {
     color: #d4d4d4;
 }
 
-/* 9.3 ownload Resume */
+/* Download Resume */
 .section-head a.bt-submit {
     position: absolute;
     right: 15px;
@@ -1863,7 +1821,7 @@ span.typed {
 
 
 /* ============================================================================= 
-#10. Portfolio SubPage
+# Portfolio SubPage
 ============================================================================= */
 
 .filter-tabs {
@@ -2145,7 +2103,7 @@ span.typed {
 
 
 /* ============================================================================= 
-#11. Blog SubPage
+# Blog SubPage
 ============================================================================= */
 
 .row.blog-grid-flex {
@@ -2381,10 +2339,10 @@ span.typed {
 }
 
 /* ============================================================================= 
-#12. Contact SubPage
+# Contact SubPage
 ============================================================================= */
 
-/*12.1 Contact Form*/
+/* Contact Form */
 
 .contact-form{
     position: relative;
@@ -2455,7 +2413,7 @@ textarea{
     background-color: #f44336;
 }
 
-/* 12.2 Contact Info*/
+/* Contact Info */
 
 .contact-info.d-flex {
     justify-content: center;
@@ -2508,7 +2466,7 @@ textarea{
 #google-map{
     height: 350px;
 }
-/*12.3 Social Media*/
+/* Social Media */
 
 .social-media-block {
     background-color: #f7f9fc;
@@ -2593,7 +2551,7 @@ textarea{
 }
 
 /* ============================================================================= 
-#13.Single Blog Page
+# Single Blog Page
 ============================================================================= */
 .blog-page {
     padding: 40px 0 50px 0;
@@ -3329,7 +3287,7 @@ blockquote {
 
 
 /* ============================================================================= 
-14.Single Portfolio Page
+# Single Portfolio Page
 ============================================================================= */
 .portfolio-head{
     height: 500px;
@@ -3478,7 +3436,7 @@ blockquote {
 }
 
 /* ============================================================================= 
-#15. Page 404
+# Page 404
 ============================================================================= */
 
 .error-content {
