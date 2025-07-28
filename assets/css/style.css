@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
 
 /****** Font Awesome icons font ******/
-@import url('fontawesome.min.css');
+@import url('font-awesome/css/all.min.css');
 
 /****** Linearicons icons Font ******/
 @import url('linearicons.min.css');
@@ -801,9 +801,13 @@ span.typed {
         font-weight: 500;
     }
     img.responsive-logo {
+        width: 30px;
         height: 30px;
+        flex-shrink: 0;
         border-radius: 100%;
         margin-right: 5px;
+        object-fit: cover;
+        object-position: top center;
     }
     .header{
         display: block;

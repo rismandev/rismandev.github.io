@@ -74,7 +74,7 @@ a:hover {
 .owl-dot.active span{
     background: #ff7547;
 }
-.timeline.currecnt .timeline-icon:after, .main-timeline .timeline:hover  .timeline-icon:after{
+.timeline.current .timeline-icon:after, .main-timeline .timeline:hover  .timeline-icon:after{
     background: #ff7547;
 }
 .main-timeline .timeline:hover .title{color: #ff7547; }
