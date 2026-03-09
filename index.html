@@ -1,23 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="author"
       content="RISMANDEV - Risman Abdilah <rismandev@gmail.com>"
     />
     <meta
       name="description"
-      content="Jelajahi portofolio pengembangan website dan mobile. Temukan proyek-proyek inovatif dan solusi digital yang saya tawarkan."
+      content="Portfolio resmi Risman Abdilah - Frontend Website & Flutter Developer dari Majalengka, Indonesia."
     />
     <meta
-      name="Keywords"
-      content="frontend developer, web developer, flutter developer, pengembang frontend, pengembang web, pengembang flutter, html, css, javascript, react js, next js, vue js, angular js, typescript, dart, flutter, mobile apps, cross platform, ui/ux developer, web design, responsive design, portfolio web developer, jasa pembuatan website, jasa pembuatan aplikasi mobile."
+      name="keywords"
+      content="frontend developer, flutter developer, web developer, portfolio, majalengka, indonesia"
     />
     <link
       rel="shortcut icon"
@@ -25,1687 +22,369 @@
       type="image/x-icon"
     />
     <title>RISMANDEV - Frontend Website & Flutter Developer</title>
-    <!-- Bootstrap -->
+
     <link
       rel="stylesheet"
       href="./assets/css/bootstrap.min.css"
       type="text/css"
     />
-    <!-- Ckeditor -->
-    <link
-      href="./assets/js/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai_sublime.css"
-      rel="stylesheet"
-    />
-
-    <style type="text/css">
-      img[alt*="www.000webhost.com"] {
-        display: none;
-      }
-      pre,
-      code {
-        white-space: pre;
-        max-height: 450px;
-        overflow: auto;
-      }
-
-      .hljs {
-        display: inline-block;
-        overflow-x: scroll;
-        padding: 0.5em;
-        padding-right: 100%;
-        -webkit-text-size-adjust: none;
-      }
-
-      .hljs-ln-numbers {
-        -webkit-touch-callout: none;
-        -webkit-user-select: none;
-        -khtml-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-        text-align: center;
-        color: #ccc;
-        border-right: 1px solid #ccc;
-        vertical-align: top;
-        padding-right: 5px;
-        /* your custom style here */
-      }
-
-      /* for block of code */
-      .hljs-ln-code {
-        padding-left: 10px;
-      }
-    </style>
-    <!-- Animation -->
     <link
       rel="stylesheet"
-      href="./assets/css/animate.min.css"
+      href="./assets/css/font-awesome/css/all.min.css"
       type="text/css"
     />
-    <!-- Owl Carousel -->
-    <link
-      rel="stylesheet"
-      href="./assets/css/owl.carousel.min.css"
-      type="text/css"
-    />
-    <!-- Light Case -->
-    <link
-      rel="stylesheet"
-      href="./assets/css/lightcase.min.css"
-      type="text/css"
-    />
-    <!-- Template style -->
-    <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
-    <link
-      rel="stylesheet"
-      href="./assets/css/colors/orange.css"
-      type="text/css"
-    />
+    <link rel="stylesheet" href="./assets/css/redesign.css" type="text/css" />
   </head>
-
   <body>
-    <!-- preloader -->
-    <div id="preloader">
-      <div id="preloader-circle">
-        <span></span>
-        <span></span>
+    <header class="site-header">
+      <div class="container">
+        <div class="header-wrap">
+          <a href="#home" class="brand">RISMANDEV</a>
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="primary-nav"
+          >
+            <i class="fas fa-bars"></i> Menu
+          </button>
+          <nav class="site-nav" id="primary-nav">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#experience">Experience</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
       </div>
-    </div>
-    <!-- /preloader -->
-    <div class="wrapper-page">
-      <!-- Header -->
-      <header class="header">
-        <div class="header-content">
-          <div class="profile-picture-block">
-            <div class="my-photo">
-              <img
-                src="./assets/images/profile/1.jpeg"
-                class="img-fluid"
-                alt="Risman Abdilah"
-              />
+    </header>
+
+    <main>
+      <section id="home" class="hero-section">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-7">
+              <p class="eyebrow">Frontend Web Developer • Flutter Developer</p>
+              <h1>Risman Abdilah</h1>
+              <p class="lead">
+                Saya membantu bisnis dan personal brand membangun produk digital
+                yang modern, cepat, dan berorientasi hasil—mulai dari website
+                performa tinggi hingga aplikasi mobile lintas platform yang
+                nyaman dipakai setiap hari.
+              </p>
+              <div class="hero-actions">
+                <a href="mailto:contact.risman@gmail.com" class="btn btn-main"
+                  ><i class="fas fa-paper-plane"></i> Hire Me</a
+                >
+                <a
+                  href="https://www.github.com/rismandev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-ghost"
+                  ><i class="fab fa-github"></i> GitHub</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="hero-card">
+                <img
+                  src="./assets/images/profile/1.jpeg"
+                  alt="Risman Abdilah"
+                  class="profile-image"
+                />
+                <div class="hero-meta">
+                  <p><i class="fas fa-location-dot"></i> Majalengka, Indonesia</p>
+                  <p><i class="fas fa-envelope"></i> rismandev@gmail.com</p>
+                  <p><i class="fas fa-phone"></i> (+62) 896 4732 9246</p>
+                </div>
+              </div>
             </div>
           </div>
-          <!-- Header Head -->
-          <div class="site-title-block">
-            <div class="site-title">Risman Abdilah</div>
-            <div class="type-wrap">
-              <div class="cd-headline clip">
-                <span class="cd-words-wrapper">
-                  <b>Frontend Website Developer</b>
-                  <b>Flutter Developer</b>
-                  <b>Backend Developer</b>
-                </span>
+        </div>
+      </section>
+
+      <section id="about" class="content-section">
+        <div class="container">
+          <div class="section-heading">
+            <h2>About Me</h2>
+            <p>
+              Saya adalah Frontend Web & Flutter Developer yang fokus pada
+              pengalaman pengguna, performa aplikasi, dan code quality jangka
+              panjang. Saya senang menerjemahkan ide bisnis menjadi produk
+              digital yang tidak hanya terlihat menarik, tetapi juga stabil,
+              mudah dikembangkan, dan siap tumbuh bersama kebutuhan pengguna.
+            </p>
+            <p class="about-extra">
+              Dalam proses kerja, saya mengutamakan komunikasi yang jelas,
+              eksekusi yang terstruktur, dan perhatian pada detail agar setiap
+              fitur benar-benar memberi dampak nyata untuk user maupun bisnis.
+            </p>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="info-card">
+                <h3>Fokus Utama</h3>
+                <ul>
+                  <li>Web development modern dan scalable</li>
+                  <li>Cross-platform mobile app dengan Flutter</li>
+                  <li>UI/UX implementation yang detail</li>
+                  <li>Optimasi performa code dan halaman</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="info-card">
+                <h3>Tech Stack</h3>
+                <div class="skills-grid">
+                  <span>Vue.js</span>
+                  <span>React.js</span>
+                  <span>TypeScript</span>
+                  <span>Flutter</span>
+                  <span>Firebase</span>
+                  <span>Supabase</span>
+                  <span>TailwindCSS</span>
+                  <span>Express.js</span>
+                  <span>Node.js</span>
+                  <span>Bootstrap</span>
+                  <span>Git</span>
+                  <span>Github</span>
+                  <span>Bitbucket</span>
+                  <span>Jira</span>
+                </div>
               </div>
             </div>
           </div>
-          <!-- /Header Head -->
+        </div>
+      </section>
 
-          <!-- Navigation -->
-          <div class="site-nav">
-            <!-- Main menu -->
-            <ul class="header-main-menu" id="header-main-menu">
-              <li>
-                <a class="active" href=""><i class="fas fa-home"></i> Home</a>
-              </li>
-              <li>
-                <a href="#about-me"><i class="fas fa-user-tie"></i> About Me</a>
-              </li>
-              <li>
-                <a href="#resume"><i class="fas fa-award"></i> Resume</a>
-              </li>
-              <li>
-                <a href="#portfolio"
-                  ><i class="fas fa-business-time"></i> Portfolio</a
-                >
-              </li>
-              <li>
-                <a href="#contact"
-                  ><i class="fas fa-paper-plane"></i> Contact Me</a
-                >
-              </li>
-            </ul>
-            <!-- /Main menu -->
+      <section id="services" class="content-section section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Services</h2>
+            <p>Layanan yang saya kerjakan untuk kebutuhan digital Anda.</p>
           </div>
-          <!-- /Navigation -->
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+              <article class="service-card">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Membangun website modern yang responsif dan maintainable.</p>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <article class="service-card">
+                <i class="fas fa-mobile-screen-button"></i>
+                <h3>Mobile Development</h3>
+                <p>
+                  Pengembangan aplikasi Android/iOS berbasis Flutter dengan satu
+                  codebase.
+                </p>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <article class="service-card">
+                <i class="fas fa-object-group"></i>
+                <h3>UI/UX Implementation</h3>
+                <p>Mengubah desain menjadi antarmuka yang presisi dan interaktif.</p>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <article class="service-card">
+                <i class="fas fa-gauge-high"></i>
+                <h3>Optimization</h3>
+                <p>Optimasi loading, performa, dan kualitas code production.</p>
+              </article>
+            </div>
+          </div>
         </div>
-      </header>
-      <!-- /Header -->
+      </section>
 
-      <!-- Mobile Header -->
-      <div class="responsive-header">
-        <div class="responsive-header-name">
-          <img
-            class="responsive-logo"
-            src="./assets/images/profile/1.jpeg"
-            alt="Risman Abdilah"
-          />
-          Risman Abdilah
+      <section id="experience" class="content-section">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Work Experiences</h2>
+            <p>
+              Ringkasan pengalaman kerja profesional berdasarkan data resume
+              sebelumnya.
+            </p>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-head">
+                <img
+                  src="./assets/images/resume/frisidea.png"
+                  alt="Logo PT Frisidea Tech Indonesia"
+                  class="company-logo"
+                />
+                <h3>Software Developer — PT Frisidea Tech Indonesia</h3>
+              </div>
+              <p>
+                <strong>January 2023 - Current</strong><br />
+                Continuing my role as a Frontend Developer, I am actively
+                involved in the development of various web application
+                projects. My primary expertise centers on utilizing Vue.js to
+                build dynamic and efficient user interfaces, implementing
+                Tailwind CSS for responsive design, and leveraging TypeScript
+                to improve code quality, scalability, and maintainability.
+              </p>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-head">
+                <img
+                  src="./assets/images/resume/tmli.png"
+                  alt="Logo Tokio Marine Life Insurance"
+                  class="company-logo"
+                />
+                <h3>
+                  Frontend Website & Flutter Developer — Tokio Marine Life
+                  Insurance
+                </h3>
+              </div>
+              <p>
+                <strong>October 2022 - Current</strong><br />
+                In this role, I focus on building comprehensive digital
+                solutions through Flutter mobile applications and Vue.js
+                websites. I handle end-to-end development, including feature
+                implementation, bug fixing, independent testing, and User
+                Acceptance Testing (UAT) to ensure stable and high-quality
+                delivery.
+              </p>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-head">
+                <img
+                  src="./assets/images/resume/frisidea.png"
+                  alt="Logo PT Frisidea Tech Indonesia"
+                  class="company-logo"
+                />
+                <h3>Software Developer — PT Frisidea Tech Indonesia</h3>
+              </div>
+              <p>
+                <strong>October 2019 - December 2022</strong><br />
+                I developed intuitive and responsive web applications using
+                Vue.js, and also contributed to cross-platform mobile
+                development with React Native for Android and iOS. During this
+                period, I also expanded my skill set by learning Flutter as an
+                alternative for modern cross-platform mobile solutions.
+              </p>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-head">
+                <img
+                  src="./assets/images/resume/ichronoz.png"
+                  alt="Logo PT Chronoz Global Media"
+                  class="company-logo"
+                />
+                <h3>Internship Web Developer — PT Chronoz Global Media</h3>
+              </div>
+              <p>
+                <strong>April 2018 - June 2018</strong><br />
+                During this internship, I focused on system development and
+                enhancement using Yii2 Framework. My responsibilities included
+                validating hotel booking system functionality and contributing
+                to school website development.
+              </p>
+            </div>
+          </div>
         </div>
-        <span class="responsive-icon"><i class="lnr lnr-menu"></i></span>
+      </section>
+
+      <section id="portfolio" class="content-section section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Portfolio</h2>
+            <p>Beberapa karya yang pernah saya kerjakan.</p>
+          </div>
+          <div class="row g-4">
+            <div class="col-sm-6 col-lg-3">
+              <a class="portfolio-card" href="./assets/images/portfolio/portfolio-img-1.jpeg" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/images/portfolio/portfolio-img-1.jpeg" alt="Portfolio 1" />
+                <span>Project #1</span>
+              </a>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <a class="portfolio-card" href="./assets/images/portfolio/portfolio-img-2.jpeg" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/images/portfolio/portfolio-img-2.jpeg" alt="Portfolio 2" />
+                <span>Project #2</span>
+              </a>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <a class="portfolio-card" href="./assets/images/portfolio/portfolio-img-3.jpeg" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/images/portfolio/portfolio-img-3.jpeg" alt="Portfolio 3" />
+                <span>Project #3</span>
+              </a>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <a class="portfolio-card" href="./assets/images/portfolio/portfolio-img-4.jpeg" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/images/portfolio/portfolio-img-4.jpeg" alt="Portfolio 4" />
+                <span>Project #4</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="content-section">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Contact</h2>
+            <p>Terbuka untuk freelance project, kolaborasi, dan full-time role.</p>
+          </div>
+          <div class="contact-grid">
+            <a href="mailto:rismandev@gmail.com"><i class="fas fa-envelope"></i> rismandev@gmail.com</a>
+            <a href="https://wa.me/6289647329246" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> +62 896 4732 9246</a>
+            <a href="https://www.linkedin.com/in/rismandev" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> linkedin.com/in/rismandev</a>
+            <a href="https://www.github.com/rismandev" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> github.com/rismandev</a>
+            <a href="https://www.instagram.com/rismandev" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> instagram.com/rismandev</a>
+            <a href="https://www.tiktok.com/@rismandev" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i> tiktok.com/@rismandev</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2026 RISMANDEV. Built with clarity and performance in mind.</p>
       </div>
-      <!-- /Mobile Header -->
-      <!-- Main Content Pages -->
-      <div class="content-pages">
-        <!-- Subpages -->
-        <div class="sub-home-pages">
-          <!-- Start Page home -->
-          <section id="home" class="sub-page start-page">
-            <div
-              class="sub-page-inner"
-              style="background: url('./assets/images/bg-workspace.jpg')"
-            >
-              <div class="mask"></div>
-              <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12">
-                  <div class="title-block">
-                    <h2>Hello, I'm Risman Abdilah</h2>
-                    <div class="type-wrap">
-                      <div class="cd-headline clip">
-                        <span class="blc">I'm working as</span>
-                        <span class="cd-words-wrapper">
-                          <b>Frontend Website Developer</b>
-                          <b>Flutter Developer</b>
-                          <b>Backend Developer</b>
-                        </span>
-                      </div>
-                    </div>
-                    <div class="home-buttons">
-                      <a
-                        href="mailto:contact.risman@gmail.com"
-                        class="bt-submit"
-                        ><i class="lnr lnr-briefcase"></i> Hire Me</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <!-- /Start Page home -->
-
-          <!-- About Me Subpage -->
-          <section id="about-me" class="sub-page">
-            <div class="sub-page-inner">
-              <div class="section-title">
-                <div class="main-title">
-                  <div class="title-main-page">
-                    <h4>About Me</h4>
-                    <p></p>
-                  </div>
-                </div>
-              </div>
-              <div class="section-content">
-                <!-- about me -->
-                <div class="row pb-30">
-                  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <h3>Crafting Digital Experiences: That's What I Do!</h3>
-                    <span class="about-location"
-                      ><i class="lnr lnr-map-marker"></i> Majalengka, Jawa
-                      Barat, Indonesia</span
-                    >
-                    <p class="about-content">
-                      Hey there, I'm thrilled you're here! I'm a Frontend Web
-                      and Flutter Developer on a mission to turn innovative
-                      ideas into captivating digital realities. Located in
-                      Majalengka, West Java, Indonesia, my work revolves around
-                      building seamless web applications and stunning
-                      cross-platform mobile experiences that users love.
-                    </p>
-                    <p class="about-content">
-                      My passion lies at the intersection of design and
-                      functionality. I get excited about every line of code that
-                      contributes to a smooth user journey, whether it's
-                      optimizing a web page for speed or perfecting the
-                      animations in a mobile app. I'm well-versed in the latest
-                      frontend technologies like Vue.js and TypeScript, and I
-                      deeply enjoy leveraging Flutter and Dart to create
-                      beautiful, performant mobile solutions for both iOS and
-                      Android.
-                    </p>
-                    <p class="about-content">
-                      Ready to build something amazing together? Check out my
-                      work in the portfolio section, or drop me a line!
-                    </p>
-                    <ul class="bout-list-summry row">
-                      <li class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                        <div class="icon-info">
-                          <i class="lnr lnr-briefcase"></i>
-                        </div>
-                        <div class="details-info">
-                          <h6>5+ Years</h6>
-                          <p>Work Experiences</p>
-                        </div>
-                      </li>
-                      <li class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                        <div class="icon-info">
-                          <i class="lnr lnr-layers"></i>
-                        </div>
-                        <div class="details-info">
-                          <h6>20+ Projects</h6>
-                          <p>Completed</p>
-                        </div>
-                      </li>
-                      <li class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                        <div class="icon-info">
-                          <i class="lnr lnr-coffee-cup"></i>
-                        </div>
-                        <div class="details-info">
-                          <h6>5+ Applications</h6>
-                          <p>Launched</p>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div class="col-xs-6 col-sm-12 col-md-6 col-lg-6">
-                    <div class="box-img">
-                      <img
-                        src="./assets/icons/icon_about_orange.svg"
-                        class="img-fluid"
-                        alt="image"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <!-- /about me -->
-
-                <!-- services -->
-                <div class="special-block-bg">
-                  <div class="section-head">
-                    <h4>
-                      <span>What Actually I Do</span>
-                      My Services
-                    </h4>
-                  </div>
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                      <div class="services-list">
-                        <div class="service-block">
-                          <div class="service-icon">
-                            <i><img src="./assets/images/services/1.png" /></i>
-                          </div>
-                          <div class="service-text">
-                            <h4>Web Development</h4>
-                            <p>
-                              Crafting responsive and dynamic web interfaces
-                              from scratch. I build modern websites and web
-                              applications that are not only visually appealing
-                              but also provide an exceptional user experience.
-                            </p>
-                          </div>
-                        </div>
-                        <div class="service-block">
-                          <div class="service-icon">
-                            <i><img src="./assets/images/services/4.png" /></i>
-                          </div>
-                          <div class="service-text">
-                            <h4>Mobile Development</h4>
-                            <p>
-                              Developing high-performance, cross-platform mobile
-                              applications using Flutter. From concept to
-                              deployment, I create intuitive and beautiful apps
-                              for both iOS and Android.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                      <div class="services-list">
-                        <div class="service-block">
-                          <div class="service-icon">
-                            <i><img src="./assets/images/services/2.png" /></i>
-                          </div>
-                          <div class="service-text">
-                            <h4>UI/UX Implementation</h4>
-                            <p>
-                              Transforming design mockups and wireframes into
-                              pixel-perfect, interactive user interfaces. I
-                              ensure an intuitive and engaging experience,
-                              bringing your vision to life with precision and
-                              creativity.
-                            </p>
-                          </div>
-                        </div>
-                        <div class="service-block">
-                          <div class="service-icon">
-                            <i><img src="./assets/images/services/3.png" /></i>
-                          </div>
-                          <div class="service-text">
-                            <h4>Code & Performance Optimization</h4>
-                            <p>
-                              Refining codebase for efficiency, scalability, and
-                              speed. I focus on optimizing performance, reducing
-                              load times, and ensuring a smooth, responsive
-                              experience across all devices.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- /services -->
-                <!-- Video section -->
-                <!-- <div
-                  class="video-section"
-                  style="background: url('./assets/images/city.jpeg')"
-                >
-                  <div class="overlay pb-40 pt-40">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
-                          <div class="sub-title">
-                            <h6>Why You Hire Me?</h6>
-                            <h2>
-                              I'm The Best Front End Expert in the marketplace
-                            </h2>
-                          </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
-                          <div class="pulse-icon">
-                            <div class="icon-wrap">
-                              <a href="https://www.tiktok.com/@rismandev">
-                                <i class="fa fa-play"></i>
-                              </a>
-                            </div>
-                            <div class="elements">
-                              <div class="circle circle-outer"></div>
-                              <div class="circle circle-inner"></div>
-                              <div class="pulse pulse-1"></div>
-                              <div class="pulse pulse-2"></div>
-                              <div class="pulse pulse-3"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div> -->
-                <!-- /Video section -->
-
-                <!-- Fun Facts -->
-                <!-- <div class="row pb-30 pt-30">
-                  <div class="section-head col-sm-12">
-                    <h4>
-                      <span>Fun</span>
-                      Facts
-                    </h4>
-                  </div>
-
-                  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <div class="pb-30">
-                      <div class="counter-block">
-                        <i class="pe-7s-smile"></i>
-                        <h4>Happy Clients</h4>
-                        <span class="counter-block-value" data-count="121"
-                          >0</span
-                        >
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <div class="pb-30">
-                      <div class="counter-block">
-                        <i class="pe-7s-light"></i>
-                        <h4>Experience Years</h4>
-                        <span class="counter-block-value" data-count="2"
-                          >0</span
-                        >
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <div class="pb-30">
-                      <div class="counter-block">
-                        <i class="pe-7s-cup"></i>
-                        <h4>Awards Won</h4>
-                        <span class="counter-block-value" data-count="12"
-                          >0</span
-                        >
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <div class="pb-30">
-                      <div class="counter-block">
-                        <i class="pe-7s-coffee"></i>
-                        <h4>Meetings</h4>
-                        <span class="counter-block-value" data-count="21"
-                          >0</span
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div> -->
-                <!-- /Fun Facts -->
-
-                <!-- List Of Testimonials -->
-                <div class="special-block-bg mt-5">
-                  <div class="section-head">
-                    <h4>
-                      <span>What My Freedom</span>
-                      Client Say
-                    </h4>
-                  </div>
-                  <div class="testimonials owl-carousel">
-                    <!-- Testimonial item 1 -->
-                    <div class="testimonial-item">
-                      <div class="testimonial-content">
-                        <div class="testimonial-review">
-                          <p>
-                            Wow what great experience, I love it! It's exactly
-                            what I've been looking for. Anna's group was the
-                            best investment I ever made. I don't know if I would
-                            have ever made it without her guidance and support!
-                          </p>
-                        </div>
-                      </div>
-                      <div class="testimonial-footer">
-                        <div class="testimonial-avatar">
-                          <img
-                            src="./assets/images/testimonials/testimonial-avatar-1.jpeg"
-                            alt="Marwa El-Manawy"
-                          />
-                        </div>
-                        <div class="testimonial-owner-content">
-                          <p class="testimonial-owner">Marwa El-Manawy</p>
-                          <p class="testimonial-position">UI Designer</p>
-                          <ul class="testimonial-rating rating">
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- /Testimonial item 1 -->
-
-                    <!-- Testimonial item 1 -->
-                    <div class="testimonial-item">
-                      <div class="testimonial-content">
-                        <div class="testimonial-review">
-                          <p>
-                            I like this group more and more each day. It makes
-                            my life a lot easier. It's really wonderful to be
-                            able to get support from like minded entrepreneurs.
-                            And Anna is always available to advise us. Thank you
-                            so much!
-                          </p>
-                        </div>
-                      </div>
-                      <div class="testimonial-footer">
-                        <div class="testimonial-avatar">
-                          <img
-                            src="./assets/images/testimonials/testimonial-avatar-2.jpeg"
-                            alt="Muhammad El-Manawy"
-                          />
-                        </div>
-                        <div class="testimonial-owner-content">
-                          <p class="testimonial-owner">Muhammad El-Manawy</p>
-                          <p class="testimonial-position">Web Developer</p>
-                          <ul class="testimonial-rating rating">
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star half-star"></i></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- /Testimonial item 1 -->
-
-                    <!-- Testimonial item 1 -->
-                    <div class="testimonial-item">
-                      <div class="testimonial-content">
-                        <div class="testimonial-review">
-                          <p>
-                            Wow what great experience, I love it! It's exactly
-                            what I've been looking for. Anna's group was the
-                            best investment I ever made. I don't know if I would
-                            have ever made it without her guidance and support!
-                          </p>
-                        </div>
-                      </div>
-                      <div class="testimonial-footer">
-                        <div class="testimonial-avatar">
-                          <img
-                            src="./assets/images/testimonials/testimonial-avatar-3.jpeg"
-                            alt="Ahmed El-Manawy"
-                          />
-                        </div>
-                        <div class="testimonial-owner-content">
-                          <p class="testimonial-owner">Ahmed El-Manawy</p>
-                          <p class="testimonial-position">Mobile Developer</p>
-                          <ul class="testimonial-rating rating">
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star half-star"></i></li>
-                            <li><i class="fa fa-star half-star"></i></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- /Testimonial item 1 -->
-
-                    <!-- Testimonial item 1 -->
-                    <div class="testimonial-item">
-                      <div class="testimonial-content">
-                        <div class="testimonial-review">
-                          <p>
-                            Wow what great experience, I love it! It's exactly
-                            what I've been looking for. Anna's group was the
-                            best investment I ever made. I don't know if I would
-                            have ever made it without her guidance and support!
-                          </p>
-                        </div>
-                      </div>
-                      <div class="testimonial-footer">
-                        <div class="testimonial-avatar">
-                          <img
-                            src="./assets/images/testimonials/testimonial-avatar-1.jpeg"
-                            alt="Marwa El-Manawy"
-                          />
-                        </div>
-                        <div class="testimonial-owner-content">
-                          <p class="testimonial-owner">Marwa El-Manawy</p>
-                          <p class="testimonial-position">UI Designer</p>
-                          <ul class="testimonial-rating rating">
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                            <li><i class="fa fa-star"></i></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- /Testimonial item 1 -->
-                  </div>
-                </div>
-                <!-- /List Of Testimonials -->
-
-                <!-- Clients -->
-                <div class="row pt-50">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <div class="section-head">
-                      <h4>
-                        <span>My</span>
-                        Clients
-                      </h4>
-                    </div>
-                    <!-- List Of Clients -->
-                    <div class="clients owl-carousel">
-                      <div class="client-block">
-                        <a href="#" target="_blank" title="client1">
-                          <img
-                            src="./assets/images/clients/1.png"
-                            alt="client1"
-                          />
-                        </a>
-                      </div>
-
-                      <div class="client-block">
-                        <a href="#" target="_blank" title="client 2">
-                          <img
-                            src="./assets/images/clients/2.png"
-                            alt="client 2"
-                          />
-                        </a>
-                      </div>
-
-                      <div class="client-block">
-                        <a href="#" target="_blank" title="client 3">
-                          <img
-                            src="./assets/images/clients/3.png"
-                            alt="client 3"
-                          />
-                        </a>
-                      </div>
-
-                      <div class="client-block">
-                        <a href="#" target="_blank" title="client 4">
-                          <img
-                            src="./assets/images/clients/4.png"
-                            alt="client 4"
-                          />
-                        </a>
-                      </div>
-
-                      <div class="client-block">
-                        <a href="#" target="_blank" title="client 5">
-                          <img
-                            src="./assets/images/clients/5.png"
-                            alt="client 5"
-                          />
-                        </a>
-                      </div>
-
-                      <div class="client-block">
-                        <a href="#" target="_blank" title="client 6">
-                          <img
-                            src="./assets/images/clients/6.png"
-                            alt="client 6"
-                          />
-                        </a>
-                      </div>
-
-                      <div class="client-block">
-                        <a href="#" target="_blank" title="client 7">
-                          <img
-                            src="./assets/images/clients/7.png"
-                            alt="client 7"
-                          />
-                        </a>
-                      </div>
-
-                      <div class="client-block">
-                        <a href="#" target="_blank" title="client 8">
-                          <img
-                            src="./assets/images/clients/8.png"
-                            alt="client 8"
-                          />
-                        </a>
-                      </div>
-
-                      <div class="client-block">
-                        <a href="#" target="_blank" title="client 9">
-                          <img
-                            src="./assets/images/clients/9.png"
-                            alt="client 9"
-                          />
-                        </a>
-                      </div>
-                    </div>
-                    <!-- /List Of Clients -->
-                  </div>
-                </div>
-                <!-- /Clients Block -->
-              </div>
-            </div>
-          </section>
-          <!-- About Me Subpage -->
-
-          <!-- Resume Subpage -->
-          <section id="resume" class="sub-page">
-            <div class="sub-page-inner">
-              <div class="section-title">
-                <div class="main-title">
-                  <div class="title-main-page">
-                    <h4>Resume</h4>
-                    <p>My Professional Resume</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="section-content">
-                <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12">
-                    <!-- Work History -->
-                    <div class="pb-300">
-                      <div class="section-head col-sm-12">
-                        <h4>
-                          <span>My Professional</span>
-                          Work History
-                        </h4>
-                        <!-- <a
-                          class="bt-submit"
-                          href="https://drive.google.com/uc?id=1lxEWCm-wnz39eM43ASxT_EupgjlJAbnp"
-                          ><i class="fas fa-cloud-download-alt"></i> Download
-                          Resume</a
-                        > -->
-                      </div>
-                      <div class="main-timeline">
-                        <div class="timeline current">
-                          <div class="timeline-icon">
-                            <img
-                              src="./assets/images/resume/frisidea.png"
-                              alt="PT Frisidea Tech Indonesia"
-                            />
-                          </div>
-                          <div class="timeline-content">
-                            <span class="date"> January 2023 - Current </span>
-                            <h5 class="title">Software Developer</h5>
-                            <p class="description">
-                              Continuing my role as a Frontend Developer, I am
-                              actively involved in the development of various
-                              web application projects. My primary expertise
-                              centers on utilizing Vue.js to build dynamic and
-                              efficient user interfaces. To ensure responsive
-                              and flexible designs, I consistently implement
-                              Tailwind CSS. Furthermore, I also leverage
-                              TypeScript to enhance code quality, ensure
-                              scalability, and facilitate easier maintenance in
-                              every project I manage.
-                            </p>
-                          </div>
-                        </div>
-
-                        <div class="timeline current">
-                          <div class="timeline-icon">
-                            <img
-                              src="./assets/images/resume/tmli.png"
-                              alt="Tokio Marine Life Insurance"
-                            />
-                          </div>
-                          <div class="timeline-content">
-                            <span class="date"> October 2022 - Current </span>
-                            <h5 class="title">
-                              Frontend Website & Flutter Developer
-                            </h5>
-                            <p class="description">
-                              In my current role, I focus on developing
-                              comprehensive digital solutions. As a Flutter
-                              Developer, I am fully responsible for developing
-                              intuitive and high-performance mobile
-                              applications. Additionally, I am actively involved
-                              in developing websites using Vue.js, creating
-                              seamless and responsive web experiences.
-                              <br /><br />The development process I manage
-                              covers the entire software development lifecycle:
-                              from adding new features to enhance functionality,
-                              fixing bugs to ensure application stability, to
-                              conducting rigorous independent testing before
-                              performing User Acceptance Testing (UAT) to
-                              guarantee the highest quality.
-                            </p>
-                          </div>
-                        </div>
-
-                        <div class="timeline">
-                          <div class="timeline-icon">
-                            <img
-                              src="./assets/images/resume/frisidea.png"
-                              alt="PT Frisidea Tech Indonesia"
-                            />
-                          </div>
-                          <div class="timeline-content">
-                            <span class="date">
-                              October 2019 - December 2022
-                            </span>
-                            <h5 class="title">Software Developer</h5>
-                            <p class="description">
-                              As a Frontend Developer, I was dedicated to
-                              creating intuitive and responsive user
-                              experiences. My experience includes developing web
-                              applications using Vue.js, building dynamic and
-                              interactive interfaces. Additionally, I was
-                              actively involved in mobile application
-                              development using React Native for both Android
-                              and iOS platforms, ensuring optimal performance
-                              across various devices. Keeping pace with rapid
-                              technological advancements, I proactively studied
-                              Flutter as an alternative for cross-platform
-                              mobile application development, expanding my
-                              expertise in delivering innovative solutions.
-                            </p>
-                          </div>
-                        </div>
-
-                        <div class="timeline">
-                          <div class="timeline-icon">
-                            <img
-                              src="./assets/images/resume/ichronoz.png"
-                              alt="PT Chronoz Global Media"
-                            />
-                          </div>
-                          <div class="timeline-content">
-                            <span class="date"> April 2018 - June 2018 </span>
-                            <h5 class="title">Internship Web Developer</h5>
-                            <p class="description">
-                              During this internship, my focus was on system
-                              development and enhancement. I intensively studied
-                              and implemented web development using the Yii2
-                              Framework. My primary responsibilities included
-                              conducting thorough checks on a hotel booking
-                              system application to ensure optimal functionality
-                              and performance. Additionally, I contributed to
-                              the development of a school website.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- /Work History -->
-
-                    <!-- Skills -->
-                    <div class="pb-30 pt-30">
-                      <div class="row list-skills">
-                        <!-- Work Skills -->
-                        <div class="col-md-6">
-                          <div class="special-block-bg">
-                            <div class="section-head">
-                              <h4>
-                                <span> My Professional</span>
-                                Work Skills
-                              </h4>
-                            </div>
-                            <div class="skills-items skills-progressbar">
-                              <div class="skill-item">
-                                <h4>Vue.js</h4>
-                                <div class="progress">
-                                  <div
-                                    class="progress-bar wow fadeInLeft"
-                                    data-progress="90%"
-                                    style="width: 90%"
-                                    data-wow-duration="1.5s"
-                                    data-wow-delay="1.2s"
-                                  ></div>
-                                </div>
-                              </div>
-                              <div class="skill-item">
-                                <h4>Flutter</h4>
-                                <div class="progress">
-                                  <div
-                                    class="progress-bar wow fadeInLeft"
-                                    data-progress="90%"
-                                    style="width: 90%"
-                                    data-wow-duration="1.5s"
-                                    data-wow-delay="1.2s"
-                                  ></div>
-                                </div>
-                              </div>
-                              <div class="skill-item">
-                                <h4>Express.js</h4>
-                                <div class="progress">
-                                  <div
-                                    class="progress-bar wow fadeInLeft"
-                                    data-progress="50%"
-                                    style="width: 50%"
-                                    data-wow-duration="1.5s"
-                                    data-wow-delay="1.2s"
-                                  ></div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- /Work Skills -->
-
-                        <!-- Work Skills -->
-                        <div class="col-md-6">
-                          <div class="special-block-bg">
-                            <div class="section-head">
-                              <h4>
-                                <span> My Professional</span>
-                                Language Skills
-                              </h4>
-                            </div>
-                            <div class="skills-items skills-progressbar">
-                              <div class="skill-item">
-                                <h4>English</h4>
-                                <div class="progress">
-                                  <div
-                                    class="progress-bar wow fadeInLeft"
-                                    data-progress="50%"
-                                    style="width: 50%"
-                                    data-wow-duration="1.5s"
-                                    data-wow-delay="1.2s"
-                                  ></div>
-                                </div>
-                              </div>
-                              <div class="skill-item">
-                                <h4>Indonesian</h4>
-                                <div class="progress">
-                                  <div
-                                    class="progress-bar wow fadeInLeft"
-                                    data-progress="95%"
-                                    style="width: 95%"
-                                    data-wow-duration="1.5s"
-                                    data-wow-delay="1.2s"
-                                  ></div>
-                                </div>
-                              </div>
-                              <div class="skill-item">
-                                <h4>Sundanese</h4>
-                                <div class="progress">
-                                  <div
-                                    class="progress-bar wow fadeInLeft"
-                                    data-progress="100%"
-                                    style="width: 100%"
-                                    data-wow-duration="1.5s"
-                                    data-wow-delay="1.2s"
-                                  ></div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- /Work Skills -->
-                      </div>
-                    </div>
-                    <!-- /Skills -->
-
-                    <!-- Education History -->
-                    <div class="pt-30">
-                      <div class="section-head">
-                        <h4>
-                          <span>My Education</span>
-                          Background History
-                        </h4>
-                      </div>
-                      <div class="main-timeline">
-                        <div class="timeline">
-                          <div class="timeline-icon">
-                            <img
-                              src="./assets/images/resume/dumbways.png"
-                              alt="School Name"
-                            />
-                          </div>
-                          <div class="timeline-content">
-                            <span class="date"> August 2019 - September 2019 </span>
-                            <h5 class="title">Fullstack Developer</h5>
-                            <p class="description">
-                              I continued my education through an intensive
-                              bootcamp program in Tangerang as a Fullstack
-                              Developer, where I delved into comprehensive
-                              development fundamentals. The primary learning
-                              focus included backend development using
-                              Express.js to build efficient APIs, and mobile
-                              application development with React Native for
-                              cross-platform solutions.
-                              <br /><br />During the program, I had the
-                              opportunity to design and develop a boarding house
-                              search application project from start to finish.
-                              This process involved several crucial stages: from
-                              preparing an optimal database structure, creating
-                              RESTful APIs for data communication, designing
-                              intuitive UI/UX, and finally implementing it on a
-                              mobile application, ensuring a smooth and
-                              functional user experience.
-                            </p>
-                          </div>
-                        </div>
-
-                        <div class="timeline">
-                          <div class="timeline-icon">
-                            <img
-                              src="./assets/images/resume/sertifikasi.png"
-                              alt="BPPTIK Cikarang"
-                            />
-                          </div>
-                          <div class="timeline-content">
-                            <span class="date"> 5 August 2019 - 9 August 2019 </span>
-                            <h5 class="title">Junior Web Developer</h5>
-                            <p class="description">
-                              Participated in an intensive 5-day training
-                              program organized by BPPTIK in Cikarang. This
-                              program focused on the theory and practical
-                              application of web development, aligning with
-                              industry competency standards. Through this
-                              training, I delved into various important aspects
-                              of web development. Upon successful completion of
-                              the program, I received a competency certificate
-                              as proof of recognition for the skills and
-                              knowledge I acquired.
-                            </p>
-                          </div>
-                        </div>
-
-                        <div class="timeline">
-                          <div class="timeline-icon">
-                            <img
-                              src="./assets/images/resume/smk.jpg"
-                              alt="SMKN 1 Majalengka"
-                            />
-                          </div>
-                          <div class="timeline-content">
-                            <span class="date"> July 2016 - May 2019 </span>
-                            <h5 class="title">Software Engineering</h5>
-                            <p class="description">
-                              During my education at a Vocational High School
-                              (SMK), I thoroughly studied the fundamentals of
-                              web and mobile development. The curriculum focused
-                              on mastering essential programming languages such
-                              as Java, PHP, and JavaScript, which laid a strong
-                              foundation for my career in this field. I gained
-                              valuable experience in collaboratively creating
-                              website projects with a team, honing my teamwork
-                              and problem-solving skills. Additionally, I
-                              actively participated in various competency
-                              examinations to validate and enhance my technical
-                              abilities.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- /Education History -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <!-- End of Resume Subpage -->
-
-          <!-- Portfolio Subpage -->
-          <section id="portfolio" class="sub-page">
-            <div class="sub-page-inner">
-              <div class="section-title">
-                <div class="main-title">
-                  <div class="title-main-page">
-                    <h4>Portfolio</h4>
-                    <p></p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="section-content">
-                <div class="filter-tabs">
-                  <button class="fil-cat" data-rel="all">
-                    <span>0</span> All
-                  </button>
-
-                  <button class="fil-cat" data-rel="pro_cat_3">
-                    <span>(2)</span> Business Logo
-                  </button>
-
-                  <button class="fil-cat" data-rel="pro_cat_2">
-                    <span>(2)</span> Decoration
-                  </button>
-
-                  <button class="fil-cat" data-rel="pro_cat_1">
-                    <span>(4)</span> Websites
-                  </button>
-                </div>
-
-                <div
-                  class="portfolio-grid portfolio-trigger"
-                  id="portfolio-page"
-                >
-                  <div class="label-portfolio">
-                    <span class="rotated-sub">Project</span
-                    ><span class="project-count">8</span>
-                  </div>
-                  <div class="row">
-                    <div
-                      class="col-lg-6 col-md-6 col-sm-12 col-xs-12 portfolio-item pro_cat_1 all"
-                    >
-                      <div class="portfolio-img">
-                        <img
-                          src="./assets/images/portfolio/portfolio-img-1.jpeg"
-                          class="img-responsive"
-                          alt="Company Branding"
-                        />
-                      </div>
-                      <div class="portfolio-data">
-                        <h4>
-                          <a
-                            href="./assets/images/portfolio/portfolio-img-1.jpeg"
-                            >Company Branding</a
-                          >
-                        </h4>
-                        <p class="meta">Websites</p>
-                        <div class="portfolio-attr">
-                          <a
-                            href="./assets/images/portfolio/portfolio-img-1.jpeg"
-                            ><i class="lnr lnr-link"></i
-                          ></a>
-                          <a
-                            href="./assets/images/portfolio/portfolio-img-1.jpeg"
-                            data-rel="lightcase:gal"
-                            title="Company Branding"
-                            ><i class="lnr lnr-move"></i
-                          ></a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div
-                      class="col-lg-6 col-md-6 col-sm-12 col-xs-12 portfolio-item pro_cat_2 all"
-                    >
-                      <div class="portfolio-img">
-                        <img
-                          src="./assets/images/portfolio/portfolio-img-2.jpeg"
-                          class="img-responsive"
-                          alt="Home Decoration"
-                        />
-                      </div>
-                      <div class="portfolio-data">
-                        <h4>
-                          <a
-                            href="./assets/images/portfolio/portfolio-img-2.jpeg"
-                            >Home Decoration</a
-                          >
-                        </h4>
-                        <p class="meta">Decoration</p>
-                        <div class="portfolio-attr">
-                          <a
-                            href="./assets/images/portfolio/portfolio-img-2.jpeg"
-                            ><i class="lnr lnr-link"></i
-                          ></a>
-                          <a
-                            href="./assets/images/portfolio/portfolio-img-2.jpeg"
-                            data-rel="lightcase:gal"
-                            title="Home Decoration"
-                            ><i class="lnr lnr-move"></i
-                          ></a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div
-                      class="col-lg-6 col-md-6 col-sm-12 col-xs-12 portfolio-item pro_cat_3 all"
-                    >
-                      <div class="portfolio-img">
-                        <img
-                          src="./assets/images/portfolio/portfolio-img-3.jpeg"
-                          class="img-responsive"
-                          alt="Photography"
-                        />
-                      </div>
-                      <div class="portfolio-data">
-                        <h4>
-                          <a
-                            href="./assets/images/portfolio/portfolio-img-3.jpeg"
-                            >Photography</a
-                          >
-                        </h4>
-                        <p class="meta">Busniess Logo</p>
-                        <div class="portfolio-attr">
-                          <a
-                            href="./assets/images/portfolio/portfolio-img-3.jpeg"
-                            ><i class="lnr lnr-link"></i
-                          ></a>
-                          <a
-                            href="./assets/images/portfolio/portfolio-img-3.jpeg"
-                            data-rel="lightcase:gal"
-                            title="Photography"
-                            ><i class="lnr lnr-move"></i
-                          ></a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div
-                      class="col-lg-6 col-md-6 col-sm-12 col-xs-12 portfolio-item pro_cat_1 all"
-                    >
-                      <div class="portfolio-img">
-                        <img
-                          src="./assets/images/portfolio/portfolio-img-4.jpeg"
-                          class="img-responsive"
-                          alt="Furniture Hone"
-                        />
-                      </div>
-                      <div class="portfolio-data">
-                        <h4>
-                          <a
-                            href="./assets/images/portfolio/portfolio-img-4.jpeg"
-                            >Furniture Hone</a
-                          >
-                        </h4>
-                        <p class="meta">Websites</p>
-                        <div class="portfolio-attr">
-                          <a
-                            href="./assets/images/portfolio/portfolio-img-4.jpeg"
-                            ><i class="lnr lnr-link"></i
-                          ></a>
-                          <a
-                            href="./assets/images/portfolio/portfolio-img-4.jpeg"
-                            data-rel="lightcase:gal"
-                            title="Furniture Hone"
-                            ><i class="lnr lnr-move"></i
-                          ></a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div
-                      class="col-lg-6 col-md-6 col-sm-12 col-xs-12 portfolio-item pro_cat_2 all"
-                    >
-                      <div class="portfolio-img">
-                        <img
-                          src="./assets/images/portfolio/portfolio-img-5.jpeg"
-                          class="img-responsive"
-                          alt="Flower Power"
-                        />
-                      </div>
-                      <div class="portfolio-data">
-                        <h4>
-                          <a
-                            href="./assets/images/portfolio/portfolio-img-5.jpeg"
-                            >Flower Power</a
-                          >
-                        </h4>
-                        <p class="meta">Decoration</p>
-                        <div class="portfolio-attr">
-                          <a
-                            href="./assets/images/portfolio/portfolio-img-5.jpeg"
-                            ><i class="lnr lnr-link"></i
-                          ></a>
-                          <a
-                            href="./assets/images/portfolio/portfolio-img-5.jpeg"
-                            data-rel="lightcase:gal"
-                            title="Flower Power"
-                            ><i class="lnr lnr-move"></i
-                          ></a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div
-                      class="col-lg-6 col-md-6 col-sm-12 col-xs-12 portfolio-item pro_cat_3 all"
-                    >
-                      <div class="portfolio-img">
-                        <img
-                          src="./assets/images/portfolio/portfolio-img-6.jpeg"
-                          class="img-responsive"
-                          alt="Home Side"
-                        />
-                      </div>
-                      <div class="portfolio-data">
-                        <h4>
-                          <a
-                            href="./assets/images/portfolio/portfolio-img-6.jpeg"
-                            >Home Side</a
-                          >
-                        </h4>
-                        <p class="meta">Busniess Logo</p>
-                        <div class="portfolio-attr">
-                          <a
-                            href="./assets/images/portfolio/portfolio-img-6.jpeg"
-                            ><i class="lnr lnr-link"></i
-                          ></a>
-                          <a
-                            href="./assets/images/portfolio/portfolio-img-6.jpeg"
-                            data-rel="lightcase:gal"
-                            title="Home Side"
-                            ><i class="lnr lnr-move"></i
-                          ></a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div
-                      class="col-lg-6 col-md-6 col-sm-12 col-xs-12 portfolio-item pro_cat_1 all"
-                    >
-                      <div class="portfolio-img">
-                        <img
-                          src="./assets/images/portfolio/portfolio-img-7.jpeg"
-                          class="img-responsive"
-                          alt="Branding Logo"
-                        />
-                      </div>
-                      <div class="portfolio-data">
-                        <h4>
-                          <a
-                            href="./assets/images/portfolio/portfolio-img-7.jpeg"
-                            >Branding Logo</a
-                          >
-                        </h4>
-                        <p class="meta">Websites</p>
-                        <div class="portfolio-attr">
-                          <a
-                            href="./assets/images/portfolio/portfolio-img-7.jpeg"
-                            ><i class="lnr lnr-link"></i
-                          ></a>
-                          <a
-                            href="./assets/images/portfolio/portfolio-img-7.jpeg"
-                            data-rel="lightcase:gal"
-                            title="Branding Logo"
-                            ><i class="lnr lnr-move"></i
-                          ></a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div
-                      class="col-lg-6 col-md-6 col-sm-12 col-xs-12 portfolio-item pro_cat_1 all"
-                    >
-                      <div class="portfolio-img">
-                        <img
-                          src="./assets/images/portfolio/portfolio-img-8.jpeg"
-                          class="img-responsive"
-                          alt="Office Decoration"
-                        />
-                      </div>
-                      <div class="portfolio-data">
-                        <h4>
-                          <a
-                            href="./assets/images/portfolio/portfolio-img-8.jpeg"
-                            >Office Decoration</a
-                          >
-                        </h4>
-                        <p class="meta">Websites</p>
-                        <div class="portfolio-attr">
-                          <a
-                            href="./assets/images/portfolio/portfolio-img-8.jpeg"
-                            ><i class="lnr lnr-link"></i
-                          ></a>
-                          <a
-                            href="./assets/images/portfolio/portfolio-img-8.jpeg"
-                            data-rel="lightcase:gal"
-                            title="Office Decoration"
-                            ><i class="lnr lnr-move"></i
-                          ></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <!-- /Portfolio Subpage -->
-
-          <!-- Contact Subpage -->
-          <section id="contact" class="sub-page">
-            <div class="sub-page-inner">
-              <div class="section-title">
-                <div class="main-title">
-                  <div class="title-main-page">
-                    <h4>Contact</h4>
-                    <p>Need Some Help?</p>
-                  </div>
-                </div>
-              </div>
-              <!-- Contact Form -->
-              <div class="row contact-form pb-30">
-                <div class="col-sm-12 col-md-5 col-lg-5 left-background">
-                  <img src="./assets/icons/icon_contact.svg" alt="" />
-                </div>
-                <div class="col-sm-12 col-md-7 col-lg-7">
-                  <div class="form-contact-me">
-                    <div id="show_contact_msg" class="row"></div>
-                    <form method="post" id="contact-form" action="">
-                      <input
-                        name="name"
-                        type="text"
-                        placeholder="Name:"
-                        required
-                        autocomplete="off"
-                      />
-                      <input
-                        name="email"
-                        type="email"
-                        placeholder="Email:"
-                        required
-                        autocomplete="off"
-                      />
-                      <textarea
-                        name="message"
-                        placeholder="Message:"
-                        required
-                        rows="6"
-                      ></textarea>
-                      <input
-                        class="bt-submit"
-                        type="submit"
-                        value="Send Message"
-                      />
-                    </form>
-                  </div>
-                </div>
-              </div>
-              <!-- /Contact Form -->
-
-              <!-- Contact Details -->
-              <div class="pt-50 pb-30">
-                <div class="section-head">
-                  <h4>
-                    <span>Contact Information</span>
-                    Find me here
-                  </h4>
-                </div>
-
-                <!-- Contact Info -->
-                <div class="sidebar-textbox row pb-50">
-                  <div class="contact-info d-flex col-md-4">
-                    <div class="w-25">
-                      <div class="contact-icon">
-                        <i class="fas fa-phone"></i>
-                      </div>
-                    </div>
-                    <div class="contact-text w-75">
-                      <h2>Phone/Whatsapp</h2>
-                      <p>(+62) 896 4732 9246</p>
-                    </div>
-                  </div>
-                  <div class="contact-info d-flex col-md-4">
-                    <div class="w-25">
-                      <div class="contact-icon">
-                        <i class="far fa-envelope-open"></i>
-                      </div>
-                    </div>
-                    <div class="contact-text w-75">
-                      <h2>Email</h2>
-                      <p>rismandev@gmail.com</p>
-                    </div>
-                  </div>
-                  <div class="contact-info d-flex col-md-4">
-                    <div class="w-25">
-                      <div class="contact-icon">
-                        <i class="fas fa-map-marker-alt"></i>
-                      </div>
-                    </div>
-                    <div class="contact-text w-75">
-                      <h2>Address</h2>
-                      <p>
-                        Desa Rajagaluh, Kecamatan Rajagaluh
-                        <br />
-                        Kabupaten Majalengka, Jawa Barat.<br />
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <!-- /Contact info -->
-
-                <!-- Map Container -->
-                <div class="contact-map pt-50">
-                  <!-- GOOGLE MAP -->
-                  <div id="google-map"></div>
-                </div>
-                <!-- /Map Container -->
-
-                <!-- Social Media -->
-                <div class="pt-50">
-                  <div class="social-media-block">
-                    <h4>Follow Me:</h4>
-                    <ul class="social-media-links">
-                      <li>
-                        <a
-                          target="_blank"
-                          href="https://www.tiktok.com/@rismandev"
-                          ><i class="fab fa-tiktok"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a
-                          target="_blank"
-                          href="https://www.facebook.com/risman.abdilah.58"
-                          ><i class="fab fa-facebook-f"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a
-                          target="_blank"
-                          href="https://www.instagram.com/rismandev"
-                          ><i class="fab fa-instagram"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a
-                          target="_blank"
-                          href="https://www.linkedin.com/in/rismandev"
-                          ><i class="fab fa-linkedin-in"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a
-                          target="_blank"
-                          href="https://www.github.com/rismandev"
-                          ><i class="fab fa-github"></i
-                        ></a>
-                      </li>
-                      <!-- <li><a href="https://www.website.com"><i class="fab fa-google-plus-g"></i></a></li>
-										<li><a href="https://www.website.com"><i class="fab fa-snapchat-ghost"></i></a></li>
-										<li><a href="https://www.website.com"><i class="fab fa-vimeo-v"></i></a></li>
-										<li><a href="https://www.website.com"><i class="fab fa-pinterest-p"></i></a></li>
-										<li><a href="https://www.website.com"><i class="fab fa-codepen"></i></a></li>
-										<li><a href="https://www.website.com"><i class="fab fa-dribbble"></i></a></li>
-										<li><a href="https://www.website.com"><i class="fab fa-dropbox"></i></a></li>
-										<li><a href="https://www.website.com"><i class="fab fa-flickr"></i></a></li>
-										<li><a href="https://www.website.com"><i class="fab fa-reddit"></i></a></li>
-										<li><a href="https://www.website.com"><i class="fas fa-rss"></i></a></li>
-										<li><a href="https://www.website.com"><i class="fab fa-skype"></i></a></li>
-										<li><a href="https://www.website.com"><i class="fab fa-soundcloud"></i></a></li>
-										<li><a href="https://www.website.com"><i class="fab fa-stack-overflow"></i></a></li>
-										<li><a href="https://www.website.com"><i class="fab fa-tumblr"></i></a></li>
-										<li><a href="https://www.website.com"><i class="fab fa-yelp"></i></a></li> -->
-                    </ul>
-                  </div>
-                </div>
-                <!-- /Social Media -->
-              </div>
-              <!-- /Contact Details -->
-            </div>
-          </section>
-          <!-- End Contact Subpage -->
-        </div>
-        <!-- /Page changer wrapper -->
-      </div>
-      <!-- /Main Content -->
-    </div>
-
-    <!--JS Files-->
-    <script src="./assets/js/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js"></script>
-    <script src="./assets/js/ckeditor/plugins/codesnippet/lib/highlight/highlightjs-line-numbers.min.js"></script>
+    </footer>
 
     <script>
-      hljs.initHighlightingOnLoad();
-    </script>
-    <script>
-      hljs.initLineNumbersOnLoad();
-    </script>
-    <script src="./assets/js/ckeditor/ckeditor.js"></script>
+      (function () {
+        var navToggle = document.querySelector(".nav-toggle");
+        var nav = document.getElementById("primary-nav");
 
-    <script src="./assets/js/jquery.min.js"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
-    <!--Owl Coursel-->
-    <script src="./assets/js/owl.carousel.min.js"></script>
-    <!-- Typing Text -->
-    <script src="./assets/js/typed.min.js"></script>
-    <!--Images LightCase-->
-    <script src="./assets/js/lightcase.min.js"></script>
-    <!-- Portfolio filter -->
-    <script src="./assets/js/jquery.isotope.min.js"></script>
-    <!-- Wow Animation -->
-    <script src="./assets/js/wow.min.js"></script>
-    <!-- Map -->
-    <!-- Main Script -->
-    <script src="./assets/js/script.js"></script>
+        if (!navToggle || !nav) {
+          return;
+        }
 
-    <!-- Google Map -->
-    <script src="https://maps.google.com/maps/api/js?key=AIzaSyD18IVb0o4pfkE5xwdQglK83tBKIEev5nI&libraries=maps,marker&v=beta"></script>
-    <script>
-      if ($("#google-map").length > 0) {
-        //set your google maps parameters
-        var latitude = -6.7858747,
-          longitude = 108.3435833,
-          map_zoom = 19;
+        function updateToggleIcon(isOpen) {
+          navToggle.innerHTML = isOpen
+            ? '<i class="fas fa-times"></i> Menu'
+            : '<i class="fas fa-bars"></i> Menu';
+          navToggle.setAttribute("aria-expanded", String(isOpen));
+        }
 
-        //google map custom marker icon
-        var marker_url = "./assets/icons/icon_map_marker.png";
-
-        //we define here the style of the map
-        var style = [
-          {
-            featureType: "landscape",
-            stylers: [
-              { saturation: -100 },
-              { lightness: 65 },
-              { visibility: "on" },
-            ],
-          },
-          {
-            featureType: "poi",
-            stylers: [
-              { saturation: -100 },
-              { lightness: 51 },
-              { visibility: "simplified" },
-            ],
-          },
-          {
-            featureType: "road.highway",
-            stylers: [{ saturation: -100 }, { visibility: "simplified" }],
-          },
-          {
-            featureType: "road.arterial",
-            stylers: [
-              { saturation: -100 },
-              { lightness: 30 },
-              { visibility: "on" },
-            ],
-          },
-          {
-            featureType: "road.local",
-            stylers: [
-              { saturation: -100 },
-              { lightness: 40 },
-              { visibility: "on" },
-            ],
-          },
-          {
-            featureType: "transit",
-            stylers: [{ saturation: -100 }, { visibility: "simplified" }],
-          },
-          {
-            featureType: "administrative.province",
-            stylers: [{ visibility: "off" }],
-          },
-          {
-            featureType: "water",
-            elementType: "labels",
-            stylers: [
-              { visibility: "on" },
-              { lightness: -25 },
-              { saturation: -100 },
-            ],
-          },
-          {
-            featureType: "water",
-            elementType: "geometry",
-            stylers: [
-              { hue: "#ffff00" },
-              { lightness: -25 },
-              { saturation: -97 },
-            ],
-          },
-        ];
-
-        //set google map options
-        var map_options = {
-          center: new google.maps.LatLng(latitude, longitude),
-          zoom: map_zoom,
-          panControl: true,
-          zoomControl: true,
-          mapTypeControl: true,
-          streetViewControl: true,
-          mapTypeId: google.maps.MapTypeId.ROADMAP,
-          scrollwheel: false,
-          styles: style,
-        };
-        //inizialize the map
-        var map = new google.maps.Map(
-          document.getElementById("google-map"),
-          map_options
-        );
-        //add a custom marker to the map
-        var marker = new google.maps.Marker({
-          position: new google.maps.LatLng(latitude, longitude),
-          map: map,
-          visible: true,
-          icon: marker_url,
+        navToggle.addEventListener("click", function () {
+          var isOpen = nav.classList.toggle("is-open");
+          updateToggleIcon(isOpen);
         });
-      }
+
+        nav.querySelectorAll("a").forEach(function (link) {
+          link.addEventListener("click", function () {
+            if (window.innerWidth <= 767) {
+              nav.classList.remove("is-open");
+              updateToggleIcon(false);
+            }
+          });
+        });
+
+        window.addEventListener("resize", function () {
+          if (window.innerWidth > 767) {
+            nav.classList.remove("is-open");
+            updateToggleIcon(false);
+          }
+        });
+      })();
     </script>
   </body>
 </html>
