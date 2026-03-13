@@ -73,6 +73,7 @@ Backup arsip versi sebelumnya disimpan pada folder `backups/`.
 
 Contoh:
 - `backups/website-backup-20260309-153244.tar.gz`
+- `backups/website-pre-cleanup-20260312-233208.tar.gz`
 
 Untuk mengekstrak backup:
 
@@ -85,6 +86,8 @@ tar -xzf backups/website-backup-20260309-153244.tar.gz
 - Style utama redesign saat ini berada di `assets/css/redesign.css`.
 - Halaman utama ada di `index.html`.
 - Navbar mobile sudah menggunakan dropdown toggle.
+- Runtime CSS yang dipakai saat ini: `bootstrap.min.css`, `font-awesome/css/all.min.css`, dan `redesign.css`.
+- Aset legacy template yang tidak dipakai sudah dibersihkan untuk menurunkan ukuran project.
 
 ---
 
