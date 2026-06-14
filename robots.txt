@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rismandev.site/sitemap.xml
+Host: rismandev.site
