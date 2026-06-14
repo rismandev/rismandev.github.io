@@ -1,94 +1,75 @@
-# RISMANDEV Personal Website
+# Nuxt Minimal Starter
 
-Website personal portfolio dengan tampilan modern, responsive, dan siap dipakai untuk GitHub Pages.
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## 🌐 Website Live
+## Setup
 
-**[rismandev.site](https://rismandev.site)**
-
-## Overview
-
-Project ini adalah website statis (HTML + CSS + JS) untuk menampilkan:
-- Profil personal
-- Layanan
-- Work experiences
-- Portfolio
-- Kontak & social links
-
-## Tech Stack
-
-- HTML5
-- CSS3
-- JavaScript (vanilla)
-- Bootstrap (CSS utility/grid)
-- Font Awesome (icons)
-
-## Struktur Folder Utama
-
-```text
-.
-├── index.html
-├── CNAME
-├── README.md
-├── backups/
-└── assets/
-    ├── css/
-    ├── images/
-    ├── icons/
-    ├── js/
-    └── fonts/
-```
-
-## Menjalankan Secara Lokal
-
-### Opsi cepat
-
-Buka file langsung di browser:
+Make sure to install dependencies:
 
 ```bash
-open index.html
+# npm
+npm install
+
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
 ```
 
-### Opsi server lokal (disarankan)
+## Development Server
+
+Start the development server on `http://localhost:3000`:
 
 ```bash
-python3 -m http.server 8080
+# npm
+npm run dev
+
+# pnpm
+pnpm dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
 ```
 
-Lalu akses:
+## Production
 
-```text
-http://localhost:8080
-```
-
-## Deployment
-
-Project ini dapat dipublish melalui **GitHub Pages** dari branch `main`.
-
-Jika menggunakan custom domain, konfigurasi disimpan di file `CNAME`.
-
-## Backup
-
-Backup arsip versi sebelumnya disimpan pada folder `backups/`.
-
-Contoh:
-- `backups/website-backup-20260309-153244.tar.gz`
-- `backups/website-pre-cleanup-20260312-233208.tar.gz`
-
-Untuk mengekstrak backup:
+Build the application for production:
 
 ```bash
-tar -xzf backups/website-backup-20260309-153244.tar.gz
+# npm
+npm run build
+
+# pnpm
+pnpm build
+
+# yarn
+yarn build
+
+# bun
+bun run build
 ```
 
-## Catatan Pengembangan
+Locally preview production build:
 
-- Style utama redesign saat ini berada di `assets/css/redesign.css`.
-- Halaman utama ada di `index.html`.
-- Navbar mobile sudah menggunakan dropdown toggle.
-- Runtime CSS yang dipakai saat ini: `bootstrap.min.css`, `font-awesome/css/all.min.css`, dan `redesign.css`.
-- Aset legacy template yang tidak dipakai sudah dibersihkan untuk menurunkan ukuran project.
+```bash
+# npm
+npm run preview
 
----
+# pnpm
+pnpm preview
 
-Dikembangkan oleh **RISMANDEV**.
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
